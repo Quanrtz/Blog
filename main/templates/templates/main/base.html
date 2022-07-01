@@ -1,0 +1,52 @@
+<!doctype html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="{% static 'Do/css/style.css' %}">
+</head>
+<body>
+  <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+     <li class="nav-item"><a href="{% url 'home' %}" class="nav-link active" aria-current="page">Blog-News Economy</a></li>
+        <li class="nav-item"><a href="{% url 'home1' %}" class="nav-link">Blog-News It</a></li>
+        <li class="nav-item"><a href="{% url 'home2' %}" class="nav-link">Blog-News Sports</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+
+      </div>
+    </header>
+
+    <div class="container" >
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+         {% block content %}{% endblock %}
+      </div>
+    </div>
+
+    </div>
+<footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+
+      <li class="nav-item"><a href="{% url 'create' %}" class="nav-link px-2 text-muted">Make Economy post</a></li>
+      <li class="nav-item"><a href="{% url 'about' %}" class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item"><a href="{% url 'create1' %}" class="nav-link px-2 text-muted">Make IT post</a></li>
+        <li class="nav-item"><a href="{% url 'index' %}" class="nav-link px-2 text-muted">General</a></li>
+        <li class="nav-item"><a href="{% url 'create2' %}" class="nav-link px-2 text-muted">Make Sports post</a></li>
+
+    </ul>
+    <p class="text-center text-muted">© 2022 News-Blog-Company, Inc</p>
+  </footer>
+</body>
+</html>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95b82e5b-0d02-4dbc-be72-abd663f906b2" name="Changes" comment="" />
+    <list default="true" id="95b82e5b-0d02-4dbc-be72-abd663f906b2" name="Changes" comment="Blog-Python" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,11 +83,35 @@
       <workItem from="1656645221905" duration="7185000" />
       <workItem from="1656698047767" duration="10447000" />
       <workItem from="1656735496328" duration="1511000" />
-      <workItem from="1656794389293" duration="435000" />
+      <workItem from="1656794389293" duration="741000" />
     </task>
+    <task id="LOCAL-00001" summary="Blog-Python">
+      <created>1656794964553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656794964553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Blog&#10;Python" />
+    <MESSAGE value="Blog-Python" />
+    <option name="LAST_COMMIT_MESSAGE" value="Blog-Python" />
   </component>
 </project>
